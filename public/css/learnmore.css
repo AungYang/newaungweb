@@ -1,0 +1,183 @@
+body, html{
+    scroll-behavior: smooth;
+    font-family: 'Nunito', sans-serif;
+}
+
+#deepSearchZone{
+    margin: 8px;
+}
+
+h1{
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    font-size: 50%;
+}
+
+.nav-item{
+    margin: 5px;
+    font-size: 15px;
+}
+
+.exp-header, .edu-header{
+    margin-top: 10px;
+    text-align: right;
+    font-size: 80px;
+}
+
+.project-header, .about-header{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 80px;
+}
+
+/* right-side */
+.skills, .project{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 55px;
+    margin-top: 55px;
+}
+
+
+
+.about{
+    padding-left: 10%;
+    padding-right: 10%;
+    background: #293039;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    
+}
+
+ .experience, .education{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15px;
+    margin-bottom: 55px;
+    margin-top: 55px;
+ }
+
+.about-text{
+    font-size: 20px;
+}
+
+.highlight{
+    color: #03a9f4;
+    font-weight: 800;
+}
+
+.card-img-top{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    padding: 15px;
+}
+
+/* for project section with big sized pics */
+#small-pic{  
+    width: 45vh;
+    height: 35vh;
+}
+
+#edu-pic{
+    width: 45vh;
+    height: 20vh;
+}
+
+.misc-info{
+    font-size: 16px;
+    color: #696969;
+}
+
+.card-body{
+    text-align: center;
+    padding: 15px;
+
+}
+
+.card-text{
+ font-size: 18px;
+ margin: 8px;
+}
+
+ .card{
+     margin-top: 15px;
+     border-bottom: none;
+     border-left: none;
+     border-right: none;
+     border-top: 5px solid lightgrey;
+    
+ }
+
+ .card-title{
+     font-size: 28px;
+     font-weight: 700;
+     color: #03a9f4;
+     margin: 4px;
+     
+ }
+
+ .body-hidden{
+     margin-top: 8px;
+     transition: none;
+     border-left: 5px solid lightgrey;
+     border-right: 5px solid lightgrey;
+     padding: 10px;
+     text-align: left;
+     
+ }
+
+ .btn-outline-dark:hover{
+    transition: 0.7s;
+    
+}
+
+.fa-eye {
+    font-size: 25px;
+    color: darkblue;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    transition: 0.9s;
+
+}
+
+
+
+
+#deep-quote{
+    color: white;
+    padding-top: 10px;
+    margin-bottom: 21px;
+
+}
+
+
+.animated.flash{
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.animated.flash:hover{
+    animation-duration: 0s;
+    animation-iteration-count: 1;
+}
+
+
+footer{
+    background: #303030;
+    text-align: center;
+    color: white;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    padding-right:90px;
+    margin: 0 auto;
+
+}
+

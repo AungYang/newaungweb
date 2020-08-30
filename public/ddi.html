@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- lato -->
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <!-- linking font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <!-- aot css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- my CSS -->
+    <link rel="stylesheet" href="css/ddi.css">
+</head>
+
+<body>
+
+
+    <div class="intro">
+        <div class="animated bounceInDown">
+
+            <div class="row">
+                <div class="col-md-6 offset-md-2">
+                    <img src="assets/ddixdexcom2.png" alt="" width="120%" height="100%">
+                </div>
+            </div>
+            <img src="https://www.dexcom.com/sites/dexcom.com/files/components/foregrounds/G6-family-shot-short_0.png"
+                alt="picOfDexcomCGM">
+        </div>
+    </div>
+
+
+    <!-- overview -->
+    <div class="overview">
+        <div class="animated bounceInRight">
+            <div class="overview-header">
+                <h1>OVERVIEW</h1>
+            </div>
+        </div>
+
+        <div class="animated fadeIn">
+            <div class="overview-text">
+                <p>
+                    Diabetes Design Initiative (DDI) from <span class="highlight">UC San Diego Design Lab</span>
+                    collaborated with <span class="highlight">Dexcom</span> in order to solve issues that customers face
+                    using the Dexcom G6
+                    Continuous Glucose Monitoring (CGM) app.
+                </p>
+
+                <p>
+                    Three common problems users deal with are wearable issues, understanding accuracy,
+                    and signal loss. We were broken up into smaller teams and our focus was proposing a solution for
+                    dealing with <u>signal loss</u>.
+                    We went through the phases of human-centered iterative design process (observing, ideating,
+                    prototyping, testing) through
+                    the 7-week sprints. Due to NDA, I am not allowed to show the prototypes.
+                </p>
+
+                <br>
+
+                <h3><i>"Why are these issues worth mentioning?"</i></h3>
+                <p>
+                    By redesigning the G6 app, we accomplish the following:
+                <ul>
+                    <li><span class="highlight">Empower patients</span> → We allow users to self-diagnose the problem
+                        before calling Dexcom</li>
+                    <li><span class="highlight">Reduce customer support calls</span> → Phone calls are expensive (time)
+                        for both Dexcom staff and consumers</li>
+
+                </ul>
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- end overview -->
+
+
+    <div class="storyboard">
+
+        <div class="animated bounceInLeft">
+            <div class="story-header">
+                <h1>STORYBOARDS</h1>
+            </div>
+        </div>
+
+
+        <div data-aos="fade-up">
+
+            <div class="row">
+                <div class="col">
+                </div>
+                <div id="centered-pic" class="col-8">
+                    <img src="assets/ddipics/storyboard.png" alt="" width="75%">
+                </div>
+                <div class="col">
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col">
+                </div>
+                <div id="centered-pic" class="col-8">
+                    <span class="comment"> <b>Fig 1: </b>receiving critique for our drawings</span>
+                </div>
+                <div class="col">
+                </div>
+            </div>
+            <p>
+                Our first step is discussing <b>solution concepts</b> so that we can describe the
+                problem and potential solutions. The process of drawing storyboard helps depict a user's
+                experience with a product and why these issues are worth solving.
+                I jumped on reddit to do research and drew my storyboard
+                on a customer who lost signal due to software incompatibility. In my drawing, I
+                made sure to express the emotional distress a diabetic patient may feel as their G6 app
+                fails to be responsive.
+            </p>
+
+            <p>
+                <b>Problem Statement:</b> Users undergo a tremendous amount of stress whenever their G6 app stops giving
+                them
+                data because they no longer know how many insulin units to inject to decrease blood sugar levels.
+                Although 70%
+                of all signal losses are restored in less than 35 minutes, many users will be tempted to call Dexcom
+                anyways.
+
+            </p>
+
+            <p>
+                <b>Initial Proposed Solution: </b> First implement an automated timer that counts down as soon as
+                a signal loss has been detected so the user is informed on how much longer to wait. Secondly, include
+                an interactive chatbot that uses keywords to respond to users and guides them through the
+                troubleshooting steps.
+            </p>
+        </div>
+
+    </div>
+    <!-- end storyboard -->
+
+
+    <div class="wireframe">
+
+        <div class="animated bounceInLeft">
+            <div class="wire-header">
+                <h1>WIREFRAMES+TESTING</h1>
+            </div>
+        </div>
+
+        <div data-aos="fade-up">
+
+            <div class="row">
+                <div class="col">
+                </div>
+
+                <div id="centered-pic" class="col-md-5">
+                    <img src="assets/ddipics/paper_censored.jpg" alt="" width="100%" height="100%">
+
+                </div>
+
+                <div id="centered-pic" class="col-md-5">
+                    <img src="assets/ddipics/wireframe.png" alt="" width="100%" height="100%">
+                </div>
+
+                <div class="col">
+                </div>
+
+            </div>
+
+
+            <div class="row">
+                <div class="col">
+                </div>
+
+                <div id="centered-pic" class="col-md-5">
+                    <span class="comment"> <b>Fig 2: </b>lo-fi paper prototypes </span>
+
+                </div>
+
+                <div id="centered-pic" class="col-md-5">
+                    <span class="comment"> <b>Fig 3: </b>user testing with paper prototypes</span>
+                </div>
+
+                <div class="col">
+                </div>
+
+            </div>
+
+
+
+
+            <br>
+            <p>
+                After deciding to implement an automated countdown timer along with an interactive chatbox,
+                we began making our <b>visual prototypes </b> by using colored paper and pen. 
+
+                We tested our prototype with 4 people (mix of Dexcom users and DDI leaders) and received their feedback
+                on the design.
+                Some of the comments I wrote down were
+            <ul>
+                <li>"'check it' button is weird; makes more sense to have a 'next' button"</li>
+                <li>"yes/no labels are confusing"</li>
+                <li> "this particular illustration could be interpreted as clickable affordances"</li>
+            </ul>
+
+            We used the results from this iteration to refine our upcoming prototype to have a better UI/UX design.
+            </p>
+
+        </div>
+
+        <div data-aos="fade-up">
+            <div class="row">
+                <div class="col">
+                </div>
+                <div id="centered-pic" class="col-md-5">
+                    <img src="assets/ddipics/figma_censored.jpg" alt="" width="100%" height="100%">
+
+                </div>
+
+                <div id="centered-pic" class="col-md-5">
+                    <img src="assets/ddipics/usetesting_censored.jpg" alt="" width="100%" height="100%">
+
+                </div>
+                <div class="col">
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col">
+                </div>
+                <div id="centered-pic" class="col-md-5">
+                    <span class="comment"> <b>Fig 4: </b>hi-fi Figma prototypes </span>
+
+                </div>
+
+                <div id="centered-pic" class="col-md-5">
+                    <span class="comment"> <b>Fig 5: </b>user testing with Figma prototypes</span>
+
+                </div>
+                <div class="col">
+                </div>
+
+            </div>
+            <br>
+            <p>
+                Our idea of a chatbot was discontinued because of its complexity, but we still retained the
+                "interactive" aspect of it. This is the phase where we began building our <b>interactive prototype</b> by using web-based tools. 
+                The premise of the interactive checklist is to have users go through a list of troubleshooting steps of 
+                methods known to resolve signal loss; these consist of <u>checking range, checking bluetooth, and checking for physical blockage.</u>
+                Our next iterations in the development cycle involves testing with numerous people from other teams and DDI leaders.
+                For the next few weeks, we repeated the same rapid prototyping cycle to <b><i>get feedback → redesign interface →
+                        conduct user testing. </i></b> 
+              
+            </p>
+
+            <p>
+                I noticed a pattern when I took notes on users testing our prototype: 
+                <ul>
+                    <li>Certain elements afford the wrong actions (swiping on non-interactive elements)</li>
+                    <li>Bolding and enlarging text elements helps reinforce importance and presence</li>
+                    <li>Rewording certain words to convey the right idea as succintly as possible</li>
+                </ul>
+                Additionally, we received feedback that our automated timer in number format was confusing for older people who aren't
+                tech-savvy. Based on this data, we modified the timer from numbers to a visual representation of a countdown. 
+            
+            </p>
+            
+            <p>
+                In week 6 of our sprints, we did usability testing on our latest prototype by using the System Usablility
+                Scale (SUS), a cheap & valid way of evaluating the usability of a website.
+            
+                We had 6 Dexcom users answer the 10 template questions after running through our prototype. We
+                summarized our findings and punched out the SUS of our prototype to be ~75, which is above average (68).
+            
+            </p>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <!-- end wireframe -->
+
+
+
+
+    <div class="team">
+
+        <div class="animated bounceInLeft">
+            <div class="team-header">
+                <h1>MEET THE TEAM</h1>
+            </div>
+        </div>
+
+        <div data-aos="fade-up">
+
+            <div class="row">
+                <div class="col">
+                </div>
+                <div id="centered-pic" class="col-8">
+                    <img src="assets/ddipics/grouppic2.JPG" alt="" width="75%">
+                </div>
+                <div class="col">
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col">
+                </div>
+                <div id="centered-pic" class="col-8">
+                    <span class="comment"> <b>Fig 6: </b>say cheese! UwU</span>
+                </div>
+                <div class="col">
+                </div>
+            </div>
+
+
+
+            <p id="shoutout">
+                Quick shoutout to my incredibly talented design & interaction labmates: <b>
+                    Edwin Fu, Kamran Jahadi, Adam Gomez, & Yvonne Hou!
+                </b> In addition to getting design experience from this program, I learned
+                something new from each and every one of you. Cheers!
+
+            </p>
+            <br>
+        </div>
+    </div>
+    <!-- end team -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+
+    <script src="js/ddi.js"></script>
+</body>
+
+</html>

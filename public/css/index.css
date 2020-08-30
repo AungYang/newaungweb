@@ -1,0 +1,142 @@
+html,body{
+  font-family: 'Lato', sans-serif;
+  background: #303030;
+
+}
+
+
+#profilePic{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  border: 5px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  margin-top: 45px;
+  
+}
+
+h1{
+  color: whitesmoke;
+  text-align: center;
+  font-size: 70px;
+}
+
+h6{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  
+}
+
+#subtitle{
+font-size: 13px;
+}
+
+.social-media ul{
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  padding: 0;
+  list-style: none;
+  
+}
+
+.social-media ul li i:hover{
+  color: #303030;
+  background: white;
+  transition: 1s;  
+  list-style: none;
+
+}
+
+.social-media ul li i{
+  color: white;
+  border: 2px solid white ;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 5px;
+}
+
+.fa-file-pdf{
+padding-left: 22px !important;
+padding-right: 22px !important;
+}
+
+
+#linkedin {
+animation-iteration-count: 1;
+animation-duration: 2s;
+}
+
+
+#github {
+animation-iteration-count: 1;
+animation-duration: 2s;
+animation-delay: 0.3s;
+}
+
+#gmail {
+animation-iteration-count: 1;
+animation-duration: 2s;
+animation-delay: 0.5s;
+}
+
+
+#resumedoc {
+animation-iteration-count: 1;
+animation-duration: 2s;
+animation-delay: 0.7s;
+
+}
+
+#pfp{
+animation-iteration-count: 1;
+animation-duration: 3s;
+animation-delay: 3.3s;
+}
+
+#name{
+animation-iteration-count: 1;
+animation-duration: 1.5s;
+animation-delay: 2s;
+}
+
+#titles{
+animation-iteration-count: 1;
+animation-duration: 1.5s;
+animation-delay: 3s;
+}
+
+
+
+.fa-angle-down{
+  color: white;
+  display: block;
+  text-align: center;
+  font-size:30px;
+  margin-top: 1%;
+}
+
+.btn-outline-light{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 44vw;
+  max-width: 200px;
+}
+
+.btn-outline-light:hover{
+  transition: 0.7s;
+}
+
+.animated.fadeIn{
+animation-iteration-count: 1;
+animation-duration: 2s;
+animation-delay: 4.4s;
+}
+
+
