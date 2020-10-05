@@ -1,6 +1,6 @@
 
     <div class="row">
-        <div class="col-md-6 offset-md-3">
+        <div class="col-lg-6 offset-md-3">
             <div class="card">
                 <img id="small-pic" class="card-img-top" src="assets/design3.png" alt="Card image cap">
                 <div class="card-body">

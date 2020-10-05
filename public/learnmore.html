@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/learnmore.css">
 
     <!-- <link rel="icon" href="./assets/ay-icon2.png" type="image/x-icon" /> -->
-    <title>Aung Yang</title>
+    <title>Aung Yang - Learn More</title>
 
 </head>
 
@@ -33,7 +33,7 @@
 
     <!-- about -->
     <div class="about">
-        <div class="animated bounceInRight">
+        <div class="animated bounceInLeft">
             <div class="about-header">
                 <h1>ABOUT</h1>
             </div>
@@ -45,14 +45,14 @@
                 <div class="col-lg-7">
                     <div class="about-text">
                         <p>
-                            My name is Aung. I am a transfer student at <span class="highlight">University of California, San
+                            Hi I'm Aung! I am a transfer student at <span class="highlight">University of California, San
                                 Diego</span>
-                            expected to finish in 2021. I graduated with my <span class="highlight">Associate of Arts,
-                                Mathematics</span>
-                            from <span class="highlight">Skyline College</span> and am currently pursuing my <span
+                            expected to finish in 2021. I am currently pursuing my <span
                                 class="highlight">Bachelor of Science, Cognitive Science with a Specialization in Design and
                                 Interaction</span>.
-                            I am interested in web development, design, and building applications.
+                            I would describe myself as an aspiring UX designer with a coding background. 
+                            As for my future career goals, I am interested being a full stack web developer, UX designer, 
+                            and/or product engineer.
                         </p>
         
         
@@ -62,7 +62,7 @@
                 </div>
                 <div class="col">
                     <div class="summary-text">
-                        <h4>Summary of Skills</h4>
+                        <p id="sumSkills">Summary of Skills</p>
                         
                             <span class="badge badge-pill badge-warning">UX Design</span>
                             <span class="badge badge-pill badge-warning">Storyboarding</span>
@@ -72,7 +72,6 @@
                             <span class="badge badge-pill badge-warning">Figma</span>
                             <span class="badge badge-pill badge-warning">Usability Testing</span>
                             <span class="badge badge-pill badge-warning">User Testing</span>
-                            <span class="badge badge-pill badge-warning">SUS Testing</span>
 
                             <br>
 
@@ -137,14 +136,14 @@
 
             <div class="row">
 
-                <div class="col-lg-6">
+              <div class="col-lg-6">
 
                 <div class="card">
                     <img id="small-pic" class="card-img-top" src="assets/sdsc3.jpg" alt="Card image cap">
                     <div class="card-body">
 
                         <h5 class="card-title">San Diego Supercomputer Center</h5>
-                        <p class="card-text"><b>Front-end Developer Intern</b></p>
+                        <p class="card-text"><b>Frontend Developer Intern</b></p>
                         <p class="misc-info" >Jun 2020 - Aug 2020</p>
 
 
@@ -158,11 +157,28 @@
                         <div class="collapse" id="sdscCollapse">
                             <div class="body-hidden">
                                 <p>
-                                    Currently building a full stack system mapper tool for SDSC. I created the front-facing UI
-                                    after prototpying on Figma
+                                    At SDSC, I worked in an agile development environment to build a full stack
+                                    visualization tool for SDSC. The web app has two main components, the 
+                                    <b>Physical Map</b> that shows physical locations of SDSC, and the <b>Logical Map</b>
+                                    that helps SDSC display and visualize
+                                    the systems information and relationships between systems.  
                                 </p>
 
-                                <p><b>Technologies used: </b>React-Redux, Bootstrap, Figma, Radial Tree </p>
+                                <p>
+                                    I wrote user stories, wireframed the routed pages using Figma, and coded the front-facing
+                                    UI such that it closely resembles our Figma prototype. I used Bootstrap to design the sign in
+                                    page and set up a grid system, and later refactored our code by creating reusable React components
+                                    and using a global CSS file instead of JSX. Additionally, I used axios to fetch data from 
+                                    our Django API to populate the React D3 Tree. 
+                                </p>
+
+                                <p>
+                                    Finally, I used Netlify to host and deploy the final product. I 
+                                    tapped into Apache and configured our backend server to enable HTTPS
+                                    by using Certbot because our Logical Map couldn't be fetched insecurely. 
+                                </p>
+
+                                <p><b>Technologies used: </b>Figma, HTML, CSS, JavaScript, React, UNIX </p>
 
                             </div>
                         </div>
@@ -171,18 +187,17 @@
                 </div>
                 
                 <div class="col-lg-6">
-
                 <div class="card">
                     <img id="small-pic" class="card-img-top" src="assets/design3.png" alt="Card image cap">
                     <div class="card-body">
 
                         <h5 class="card-title">UC San Diego Design Lab</h5>
-                        <p class="card-text"><b>UX Research Asssistant</b></p>
+                        <p class="card-text"><b>UX Designer Intern</b></p>
                         <p class="misc-info" >Oct 2019 - Nov 2019</p>
 
 
 
-                        <a href="/ddi.html" class="btn btn-outline-dark" role="button">Learn More</a>
+                        <a target="blank" href="/ddi.html" class="btn btn-outline-dark" role="button">Learn More</a>
                         <!-- <a href="file:///Users/aungyang/projects/newaungweb/public/ddi.html" class="btn btn-outline-dark" role="button">Learn More!</a> -->
 
                     </div>
@@ -222,7 +237,12 @@
                                 <div class="body-hidden">
                                     <p>At YSE, I did frontend work and wrote code for the login page and signup page. I used
                                         Cloud Firestore and wired the backend by associating authentication form values with
-                                        users on Firebase.
+                                        users on Firebase. I also ideated on how to assign read-write (sudo) privileges to people
+                                        in the HR with superadmin (highest), admin (shared privileges), and members (none).
+
+                                    </p>
+
+                                    <p>
                                         Additionally, I created a button that helps generate a random password when creating
                                         users.
                                     </p>
@@ -335,7 +355,7 @@
                                 <p>At Skyline College, I provided academic support in math for over <b>50+ students.</b>
                                 </p>
 
-                                <p>I was a <b>Mathemtatics Tutor</b> in the Learning Center. 
+                                <p>I was a <b>Mathematics Tutor</b> in the Learning Center. 
                                     I guided my tutees on how to problem-solve, think critically, and how to utilize
                                     public resources to succeed in college.
 
@@ -371,7 +391,7 @@
     <!-- project -->
     <div class="project">
 
-        <div class="animated bounceInRight">
+        <div class="animated bounceInLeft">
             <div class="project-header">
 
                 <h1>PROJECTS</h1>
@@ -384,6 +404,32 @@
 
 
             <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="card">
+                        <img id="small-pic-tp" class="card-img-top" src="assets/tplogo.png" alt="Card image cap">
+                        <div class="card-body">
+    
+                            <h5 class="card-title">AcademiaHub</h5>
+                            <p class="card-text">UXD project with a children-based theme</p>
+                            <p class="misc-info">Completed: Aug 2020</p>
+    
+    
+    
+                            <a target="blank" href="/tp.html" class="btn btn-outline-dark" role="button">Learn More</a>
+                            <!-- <a href="file:///Users/aungyang/projects/newaungweb/public/ddi.html" class="btn btn-outline-dark" role="button">Learn More!</a> -->
+    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+
+                </div>
+                
+            </div>
+
+
+            <div class="row">
 
                 <div class="col-lg-6">
                     <div class="card">
@@ -393,7 +439,7 @@
     
                             <h5 class="card-title">Insightout</h5>
                             <p class="card-text">Web app that guesses a character users may be
-                                thinking about through a series of questions</p>
+                                thinking about</p>
                             <p class="misc-info">Completed: Aug 2019</p>
     
     
@@ -460,6 +506,8 @@
     
                                     <a style="text-decoration: none;" href="https://weatherpal.herokuapp.com"
                                         target="blank"><i class="fa fa-eye"></i></a>
+
+                                       
                                 </div>
                             </div>
                         </div>
@@ -487,7 +535,7 @@
                         <div class="card-body">
     
                             <h5 class="card-title">Tic-Tac-Toe</h5>
-                            <p class="card-text">Web app that immerses users in the experience of playing against a bot or a partner</p>
+                            <p class="card-text">Web app for the classic Tic-Tac-Toe game with a bot or friend</p>
                             <p class="misc-info">Completed: July 2019</p>
     
     
@@ -527,8 +575,8 @@
                         <div class="card-body">
     
                             <h5 class="card-title">Guess-Guess</h5>
-                            <p class="card-text">GUI game that prompts users to pick the correct color based on an RGB</p>
-                            <p class="misc-info">Completed: Aug 2019</p>
+                            <p class="card-text">GUI game that prompts users to pick the correct color</p>
+                            <p class="misc-info">Completed: Aug 2018</p>
     
     
                             <a id="gg-button" class="btn btn-outline-dark" data-toggle="collapse" href="#ggCollapse"
@@ -542,7 +590,7 @@
                                     <p>Colors are everywhere in the world. This GUI game challenges users to determine which
                                         color is correct by estimating how
                                         a resulting color would look by, for instance, adding some amount of red, a little
-                                        amount of green, and a lot of blue.</p>
+                                        amount of green, and a lot of blue. It is based on the RGB color system</p>
     
                                     <p><b>Technologies used:</b> GUI, JavaFX Libraries</p>
     
@@ -600,7 +648,7 @@
     
                             <h5 class="card-title">University of California, San Diego</h5>
                             <p class="card-text"><b>B.S. Cognitive Science Spec. HCI </b></p>
-                            <p class="misc-info">Expected Jun 2021 | GPA: 3.5</p>
+                            <p class="misc-info">Expected Jun 2021 | GPA: 3.6</p>
     
     
                             <a id="ucsd-edu-button" class="btn btn-outline-dark" data-toggle="collapse" href="#ucsdCollapse"

@@ -11,34 +11,35 @@ h1{
     font-style: italic;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: block;
-    font-size: 50%;
 }
 
-.nav-item{
-    margin: 5px;
-    font-size: 15px;
-}
 
 .exp-header, .edu-header{
     margin-top: 10px;
-    text-align: right;
-    font-size: 80px;
+    text-align: left;
+    font-size: 75px;
+    letter-spacing: 2px;
 }
 
 .project-header, .about-header{
     margin-top: 10px;
     text-align: left;
-    font-size: 80px;
+    font-size: 75px;
+    letter-spacing: 2px;
 }
 
 /* right-side */
-.skills, .project{
+ .project{
     padding-left: 10%;
     padding-right: 10%;
-    margin-bottom: 55px;
-    margin-top: 55px;
 }
 
+#sumSkills{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff
+    box-shadow: 5px 10px 8px #888888;
+}
 
 
 .about{
@@ -47,28 +48,30 @@ h1{
     background: #293039;
     height: auto;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     color: white;
-    
+   
 }
 
  .experience, .education{
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 15px;
     margin-bottom: 55px;
     margin-top: 55px;
  }
 
 .about-text{
-    font-size: 20px;
-    padding: 5%;
+    font-size: 17px;
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-top: 5%;
+    padding-bottom: 2%;
     background-color: #232930;
     border-radius: 15px;
 }
 
 .summary-text{
-    font-size: 20px;
+    font-size: 17px;
 
 }
 
@@ -85,10 +88,16 @@ h1{
     padding: 15px;
 }
 
-/* for project section with big sized pics */
+
 #small-pic{  
-    width: 45vh;
-    height: 35vh;
+    width: 50vh;
+    height: 40vh;
+}
+
+/* just for TP */
+#small-pic-tp{  
+    width: 40vh;
+    height: 45vh;
 }
 
 #edu-pic{
@@ -97,37 +106,37 @@ h1{
 }
 
 .misc-info{
-    font-size: 16px;
+    font-size: 17px;
     color: #696969;
 }
 
 .card-body{
     text-align: center;
     padding: 15px;
+    
 
 }
 
 .card-text{
- font-size: 18px;
+ font-size: 20px;
  margin: 8px;
 }
 
- .card{
-     margin-top: 15px;
-     border-bottom: none;
-     border-left: none;
-     border-right: none;
-     border-top: 5px solid lightgrey;
-    
- }
+.card{
+ margin-top: 15px;
+ border-bottom: none;
+ border-left: none;
+ border-right: none;
+ border-top: 5px solid lightgrey;   
+}
 
- .card-title{
-     font-size: 28px;
-     font-weight: 700;
-     color: #03a9f4;
-     margin: 4px;
+.card-title{
+ font-size: 25px;
+ font-weight: 700;
+ color: #03a9f4;
+ margin: 4px;
      
- }
+}
 
  .body-hidden{
      margin-top: 8px;
@@ -146,16 +155,13 @@ h1{
 
 .fa-eye {
     font-size: 25px;
-    color: darkblue;
+    color: #630063;
     display: block;
     margin: 0 auto;
     text-align: center;
     transition: 0.9s;
 
 }
-
-
-
 
 #deep-quote{
     color: white;
@@ -177,7 +183,7 @@ h1{
 
 
 footer{
-    background: #303030;
+    background: #293039;
     text-align: center;
     color: white;
     height: auto;
@@ -186,6 +192,7 @@ footer{
     padding-left: 90px;
     padding-right:90px;
     margin: 0 auto;
+    font-size: 17px;
 
 }
 

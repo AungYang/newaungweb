@@ -1,0 +1,163 @@
+body, html{
+    scroll-behavior: smooth;
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden; 
+
+
+}
+
+.intro{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1{
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+}
+
+
+.comment{
+    color: #696969;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.overview{
+    padding-left: 10%;
+    padding-right: 10%;
+    background: #293039;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+
+.overview-text{
+    background-color: #232930;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 1.5%;
+    margin-right: 5px;
+    border-radius: 15px;
+}
+
+.overview-misc{
+    padding: 10px;
+}
+
+
+
+.highlight{
+    color: #03a9f4;
+    font-weight: 800;
+}
+
+.highlight-titles{
+    color: #03a9f4;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.subheader{
+    font-weight: 800;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+
+.story-header, .team-header{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 75px;
+    letter-spacing: 2px;
+}
+
+.storyboard{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    
+    
+}
+
+
+#centered-pic{
+    text-align: center;
+}
+
+#centered-pic-pad{
+    text-align: center;
+    padding-top: 3px
+}
+
+.wireframe, .team{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15px;
+    margin-bottom: 15px;   
+}
+
+.wire-header, .overview-header{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 75px;
+    letter-spacing: 2px;
+    
+}
+
+
+footer{
+    background: #293039;
+    text-align: center;
+    color: white;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    padding-right:90px;
+    margin: 0 auto;
+    font-size: 17px;
+
+}
+
+.social-media ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 0;
+    list-style: none;
+    
+  }
+  
+  .social-media ul li i:hover{
+    color: black;
+    list-style: none;
+  
+  }
+  
+  .social-media ul li i{
+    color: white;
+    margin: 5px;
+  }
+  
+  .pp-text{
+    background-color: #E8FFFA;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 3px;
+  }
+
+
+  #pro-con{
+      text-align: center;
+  }
+
+
